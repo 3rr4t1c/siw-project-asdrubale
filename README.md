@@ -3,4 +3,4 @@ siw-project-asdrubale
 
 Il progetto per l'esame di sistemi informativi su web.
 
-Questo progetto mi è stato commissionato dal professore Paolo Merialdo
+Questo progetto è stato commissionato dal professore Paolo Merialdo per il corso di sistemi informativi su web.
