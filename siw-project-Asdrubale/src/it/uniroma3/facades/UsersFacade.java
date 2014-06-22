@@ -8,12 +8,12 @@ import javax.persistence.*;
 // Questa facade offre dei metodi per utenti non registrati
 
 @Stateless(name="uFacade")
-public class UserFacade {
+public class UsersFacade {
 	
 	@PersistenceContext(unitName="unit-asdrubale")
 	private EntityManager em;		
 	
-	public UserFacade() { }
+	public UsersFacade() { }
 	
 	@SuppressWarnings("unchecked")
 	public List<Product> retrieveAllProducts() {

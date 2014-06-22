@@ -4,7 +4,7 @@ import java.util.List;
 
 import it.uniroma3.facades.AdministrationFacade;
 import it.uniroma3.facades.ClientsFacade;
-import it.uniroma3.facades.UserFacade;
+import it.uniroma3.facades.UsersFacade;
 import it.uniroma3.model.Product;
 
 import javax.ejb.EJB;
@@ -17,7 +17,7 @@ import javax.faces.bean.RequestScoped;
 public class ProductController {
 
 	@EJB(beanName = "uFacade")
-	private UserFacade userFacade;
+	private UsersFacade userFacade;
 
 	@EJB(beanName = "aFacade")
 	private AdministrationFacade adminFacade;
